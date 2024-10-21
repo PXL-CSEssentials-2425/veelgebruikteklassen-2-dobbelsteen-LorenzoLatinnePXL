@@ -1,0 +1,15 @@
+﻿<Window x:Class="Dobbelsteen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dobbelsteen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Height="33" Width="84" Click="startButton_Click" IsDefault="True"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="85,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="651" Height="239"/>
+        <Button x:Name="closeButton" Content="Close" HorizontalAlignment="Left" Margin="669,77,0,0" VerticalAlignment="Top" Height="27" Width="67" Click="closeButton_Click" IsCancel="True"/>
+
+    </Grid>
+</Window>
