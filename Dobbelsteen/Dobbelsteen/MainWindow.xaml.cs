@@ -40,23 +40,17 @@ namespace Dobbelsteen
         {
             StringBuilder sb = new StringBuilder();
             Random rnd = new Random();
+            const int WinningNumber = 6;
+            int tries = 0;
+            int thrownNumber;
 
-            for (int i = 1; true; i++)
             {
-                int worp = rnd.Next(1, 7);
-                if (worp == 6)
-                {
-                    sb.AppendLine($"Worp {i} geeft {worp}");
-                    break;
-                }
-                else
-                {
-                    sb.AppendLine($"Worp {i} geeft {worp}");
-                }
-                
             }
+            while (thrownNumber != WinningNumber);
 
-            resultTextBox.Text = sb.ToString();
+            sb.Clear();
+        }
+
         }
     }
 }

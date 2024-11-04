@@ -10,9 +10,15 @@ using System.Windows;
 [assembly: AssemblyTitle("Dobbelsteen")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
+<<<<<<< HEAD
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Dobbelsteen")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
+=======
+[assembly: AssemblyCompany("PXL")]
+[assembly: AssemblyProduct("Dobbelsteen")]
+[assembly: AssemblyCopyright("Copyright © PXL 2024")]
+>>>>>>> ae3d4811ae2079322e6e99822fd128ffaa57c8df
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

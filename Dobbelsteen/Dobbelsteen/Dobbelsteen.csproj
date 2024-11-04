@@ -4,7 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{532467DC-F9DC-4E52-B294-60EC2DB679E2}</ProjectGuid>
+=======
+    <ProjectGuid>{F01BB855-38A1-46CE-AC6F-D68993064623}</ProjectGuid>
+>>>>>>> ae3d4811ae2079322e6e99822fd128ffaa57c8df
     <OutputType>WinExe</OutputType>
     <RootNamespace>Dobbelsteen</RootNamespace>
     <AssemblyName>Dobbelsteen</AssemblyName>
